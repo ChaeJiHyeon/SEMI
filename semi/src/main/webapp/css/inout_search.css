@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+#inout_search{
+   width:60%;
+   margin: 0 auto;
+   position:relative;
+}
+
+#inout_search_header>h2{
+   text-align:center;
+   font-size : 2rem;
+}
+
+#inout_search_frm_type>span{
+   display:inline-block;
+   font-size: 15pt;
+   font-weight:bold;
+   text-align: center;
+   margin-bottom:15px;
+}
+
+#inout_search_frm_type_detail{
+   margin-bottom: 25px;
+}
+
+#inout_search_frm_type_detail>label{
+   display:inline-block;
+   width:100px;
+   font-size:15pt;
+   
+}
+
+#inout_search_frm_type_detail input[type=radio]{
+   appearance: none;
+   border: max(2px, 0.1em) solid gray;
+   border-radius: 50%;
+     width: 2em;
+     height: 2em;
+     position : relative;
+   top:5px;
+}
+
+#inout_search_frm_type_detail input[type=radio]:checked{
+   border: 0.4em solid #292E49;
+}
+
+#inout_search_frm{
+   text-align:center;
+}
+
+#inout_search_frm_search input{
+   width:200px;
+   height:20px;
+}
+
+.inout_search_frm_search_span{
+   display:inline-block;
+   width:120px;
+   font-size: 15pt;
+   font-weight:bold;
+   text-align: center;
+   margin-bottom: 25px;
+   position:relative;
+   top:2px;
+}
+
+#inout_search_date_search_wrapper>span{
+   position:relative;
+   top:25px;
+}
+
+
+#inout_search_frm_search input[name=io_date2]{
+   display:block;
+   margin: 0 auto;
+   margin-bottom:20px;
+   position:relative;
+   left:62px;
+}
+
+#io_fishName_list_input{
+   background-color:gray;
+}
+
+
+#inout_search_btn_search_wrapper{
+   padding:0 0 35px 0;
+}
+
+#inout_search_btn_search{
+   background-color:#292E49;
+   padding:5px;
+   width:70px;
+   color: #fff;
+   margin-top:10px;
+}
+
+#inout_search_btn_search:hover{
+   background-color:#536976;
+   cursor:pointer;
+}
+   

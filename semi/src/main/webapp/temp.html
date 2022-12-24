@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Slick</title>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    
+    <script>
+      $( document ).ready( function() {
+        $( '.slider' ).slick( {
+          autoplay: true,
+          fade: true,
+          arrows:false
+        } );
+      } );
+    </script>
+    <style>
+       .slider{  
+         box-sizing:border-box;
+         width: 1167px;
+         height: 491px;
+         background-color: #e9ecef;
+         position:relative;
+         top:1px;
+      }
+      .slick-list{
+         margin:0;
+         width:100%;
+      }
+       .slide{
+       width:100%;
+         box-sizing:border-box;
+      } 
+      .slide img{
+         object-fit: full;
+        width: 100%;
+        height: 491px;
+        box-sizing: border-box;
+      }
+      .slick-prev:before, .slick-next:before {
+        color: #444444;
+      }
+    </style>
+     </head>
+  <body>
+    <div class="slider">
+      <div class="slide"><img src="img/고래꼬리.jpg" alt=""></div>
+      <div class="slide"><img src="img/물고기거래.jpg" alt=""></div>
+      <div class="slide"><img src="img/바다어선.png" alt=""></div>
+      <div class="slide"><img src="img/사람그물.jpg" alt=""></div>
+    </div>
+  </body>
+</html>

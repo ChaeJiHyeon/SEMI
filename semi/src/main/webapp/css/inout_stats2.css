@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.inout_stats_main{
+   padding: 20px;
+   margin: 20px;
+   box-sizing : border-box;
+   
+}
+
+/*테이블 헤더 영역*/
+
+.inout_stats_header{
+   display: grid;
+   grid-template-columns : 1fr 1fr 1fr;
+   color: white;
+   background-color: #292E49;
+   padding: 10px;
+   
+}
+.inout_stats_header div{
+   text-align: center;
+   
+}
+#inout_stats_h2{
+	display:inline-block;
+}
+
+.inout_stats_h5{
+	display : inline-block;
+}
+
+/*테이블 출력 영역 */
+.inout_stats_items{
+   display: grid;
+   grid-template-columns : 1fr 1fr 1fr;
+   
+}
+.inout_stats_items div{
+   border-bottom: 2px solid #292E49 ;
+   text-align: center;
+   padding: 10px;
+   
+}
+/* 페이징 처리 */
+.inout_stats_btn_page{
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   gap: 3px;
+   width: 30%;
+   margin: 20px auto;
+}
+
+.inout_stats_btn_page>input[type=button]{
+	width:60px;
+	color:#fff;
+	padding:3px;
+	background-color: #292E49;
+	-webkit-box-shadow: 0px 6px 0px #536976, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+	-moz-box-shadow: 0px 6px 0px #536976, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+	box-shadow: 0px 6px 0px #536976, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+
+}
+
+.inout_stats_btn_page>input[type=button]:hover, #inout_stats_now_btn{
+   cursor:pointer;
+   background-color:  #536976;
+}
